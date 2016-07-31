@@ -44,7 +44,7 @@ namespace Code_Example
             TimeSpan elapsed = stop - start;
 
             System.Console.WriteLine("Synchronized List: " + myList.IsSynchronized);
-            System.Console.WriteLine(iThreads + " * 5000 = " + myList.Count + "? " + (myList.Count == (iThreads *5000)));
+            System.Console.WriteLine(iThreads + " * 1000 = " + myList.Count + "? " + (myList.Count == (iThreads *5000)));
             System.Console.WriteLine("Number of exceptions thrown: " + WriterThread.ExceptionCount);
             System.Console.WriteLine("Time of calculation = "+ elapsed);
         }
@@ -83,7 +83,7 @@ namespace Code_Example
         bool isFinished = false;
         public void WriteThread()
         {
-            for (int loop = 0; loop < 5000; loop++)
+            for (int loop = 0; loop < 1000; loop++)
             {
                 String elName = t.Name + loop.ToString();
                 try
