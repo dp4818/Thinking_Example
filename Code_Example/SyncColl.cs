@@ -7,13 +7,13 @@ using System.Threading;
 namespace Code_Example
 {
     class SyncCol1
-    {
+    {   /*
         public static void Main()
         {
             int iThreads = 25;
             SyncCol1 sc1 = new SyncCol1(iThreads);
             Console.WriteLine("");
-        }
+        }*/
         int iThreads;
         SortedList myList;
         public SyncCol1(int iThreads)

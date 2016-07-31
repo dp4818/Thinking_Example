@@ -27,8 +27,7 @@ namespace Code_Example
             for (int i = 0; i < 5; i++)
             {
                 SimpleThreading st = new SimpleThreading();
-                Thread aThread = new Thread(new
-                ThreadStart(st.run));
+                Thread aThread = new Thread(new ThreadStart(st.run));
                 aThread.Start();
             }
             System.Console.WriteLine("All Threads Started");

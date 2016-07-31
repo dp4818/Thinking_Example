@@ -51,6 +51,7 @@
     <Compile Include="Flower.cs" />
     <Compile Include="InterfaceCollision.cs" />
     <Compile Include="MultiDimArray.cs" />
+    <Compile Include="MyThreadExample.cs" />
     <Compile Include="Name.cs" />
     <Compile Include="Parcel4.cs" />
     <Compile Include="PrimitiveOverloading.cs" />
